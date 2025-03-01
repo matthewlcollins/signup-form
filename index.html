@@ -7,6 +7,49 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="visual-cont">
+            <div class="logobanner">
+                <img src="./images/odin-lined.png" alt="" id="logo">
+            </div>
+        </div>
+        <div class="signup-cont">
+            <div class="sign-banner">
+                <h2>Let's Do this</h2>
+                <form action="example.com/" method="post">
+                    <fieldset>
+                        <div class="input-group">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" name="first_name" id="first_name" required placeholder=" ">
+                        </div>
+                        <div class="input-group">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" name="last_name" id="last_name" required placeholder=" ">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="input-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" required placeholder=" ">
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" name="phone" id="phone" required placeholder=" " pattern="\d{10}" title="Please enter a valid Phone number">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="input-group">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" required placeholder=" ">
+                        </div>
+                        <div class="input-group">
+                            <label for="c-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="c-password" id="c-password" required placeholder=" ">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
