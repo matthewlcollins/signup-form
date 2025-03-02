@@ -36,14 +36,13 @@ body {
 .signup-cont {
     height: 100%;
     width: 60%;
-    align-items: center;
     background-color: whitesmoke;
     display: flex;
+    flex-direction: column;
 }
 
 .sign-banner {
     height: 280px;
-    margin-top: 100px;
     width: 100%;
     background-color: white;
     box-shadow:  0 7px 5px rgb(148, 147, 147);
@@ -95,4 +94,43 @@ input:valid {
 
 input:not(:focus):not(:placeholder-shown):invalid {
     border: 2px solid red;
+}
+
+.intro {
+    height: 19.75rem;
+    padding-bottom: 50px;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+.signbut {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.login > a {
+    color: #596d48;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.createbut {
+    background-color: #596d48;
+    height: 50px;
+    width: 230px;
+    border-radius: 7px;
+    font-size: 18px;
+    color: white;
+    box-shadow: none;
+    outline: none;
+    border: none;
 }
